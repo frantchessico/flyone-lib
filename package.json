@@ -1,0 +1,40 @@
+{
+  "name": "flyone",
+  "version": "1.0.5",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "format": "prettier --write 'src/**/*.{ts,tsx}'",
+    "test": "jest"
+  },
+  "keywords": [
+    "flyone"
+  ],
+  "author": "Flyone",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/jest": "^29.5.14",
+    "@typescript-eslint/eslint-plugin": "^8.19.0",
+    "@typescript-eslint/parser": "^8.19.0",
+    "eslint": "^9.17.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.4.2",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.2"
+  },
+  "homepage": "https://github.com/frantchessico/flyone-lib",
+  "repository": {
+    "url": "https://github.com/frantchessico/flyone-lib"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
